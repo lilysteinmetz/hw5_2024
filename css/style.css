@@ -93,8 +93,16 @@
     .card {
         flex-basis: 275px;
     }
-    
-  }
+  
+    body > header {
+          position: fixed;
+          top: 0px;
+          width: 100%;
+      }
+      .about {
+          padding-top: 80px;
+      }
+    }
 
   @media (prefers-reduced-motion: reduce) {
     #logo {
