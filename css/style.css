@@ -31,8 +31,6 @@
     .nav_item a:hover, a:focus, a:visited{
         color: blue;
         text-decoration: underline;
-        -webkit-text-decoration-style: dotted;
-                text-decoration-style: dotted;
       }
     header{
       display: flex;
@@ -50,7 +48,7 @@
     }
     .card > header{
       background-color: #288080;
-      border: solid 2px, #45ADAD;
+      border: solid 2px #45ADAD;
       padding-top: 20px;
       padding-bottom: 20px;
       border-top-left-radius: 50px;
