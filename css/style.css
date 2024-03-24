@@ -50,7 +50,7 @@
     }
     .card > header{
       background-color: #288080;
-      border: solid, 2px, #45ADAD;
+      border: solid 2px, #45ADAD;
       padding-top: 20px;
       padding-bottom: 20px;
       border-top-left-radius: 50px;
@@ -79,7 +79,7 @@
     @media screen and (min-width:900px) {
       header { 
         display: flex;
-        align-content: left;
+        justify-content: left;
         flex-wrap: nowrap;
       }
       .nav_links {
