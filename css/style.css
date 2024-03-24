@@ -132,10 +132,10 @@
     .gallery {
       display: none;
     }
-    .card h4::after {
+    .card ul li:nth-child(2)::after {
       content: "\1F44D";
       margin-left: 5px; 
-    }
+  }
     }
 
     
