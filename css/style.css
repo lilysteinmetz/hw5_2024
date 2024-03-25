@@ -75,6 +75,10 @@
     }
     
     @media screen and (min-width:900px) {
+      h1 {
+        padding-top: 10px;
+      }
+      
       header { 
         display: flex;
         justify-content: left;
@@ -98,7 +102,7 @@
       position: fixed;
       top: 0px;
       width: 100%;
-  }
+    }
       .about {
         padding-top: 80px;
       }
